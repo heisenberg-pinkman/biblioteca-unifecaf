@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Biblioteca Digital UniFECAF: conheça o acervo, as categorias de livros, as unidades e os contatos.">
+  <title>Biblioteca Digital UniFECAF</title>
+
+  <!-- Fontes: Poppins (títulos) e Open Sans (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Nosso arquivo de estilo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Atalho para quem navega só pelo teclado pular o menu -->
+  <a class="pular-menu" href="#conteudo">Ir para o conteúdo principal</a>
+
+  <!-- 1. CABEÇALHO E MENU -->
+  <header class="topo">
+    <nav class="menu" aria-label="Menu principal">
+      <ul>
+        <li><a href="#inicio" class="ativo" aria-current="page">Biblioteca</a></li>
+        <li><a href="#livros">Livros</a></li>
+        <li><a href="#unidades">Unidades</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- 2. BANNER PRINCIPAL -->
+    <section class="banner" id="inicio">
+      <img src="assets/imagens/banner-1.jpg" alt="Estudantes lendo em uma biblioteca com estantes de livros ao fundo">
+      <div class="banner-texto">
+        <h1>Biblioteca Digital UniFECAF</h1>
+        <p>Livros, materiais acadêmicos e conteúdos de apoio ao seu aprendizado, em um só lugar.</p>
+      </div>
+    </section>
+
+    <!-- 3. SOBRE A NOSSA BIBLIOTECA -->
+    <section class="sobre" id="sobre">
+      <h2>Sobre a nossa biblioteca</h2>
+
+      <div class="sobre-conteudo">
+        <p>
+          A Biblioteca Digital UniFECAF foi criada para facilitar o acesso dos
+          estudantes a livros, materiais acadêmicos e conteúdos de apoio.
+          Aqui você encontra o acervo organizado por categorias e os
+          principais destaques de cada área.
+        </p>
+
+        <img src="assets/imagens/sobre.jpg" alt="Mesa de estudos com livros abertos e um notebook">
+
+        <p>
+          Nossa proposta é oferecer uma experiência simples e intuitiva, que
+          funcione bem no computador e no celular, para que o estudo caiba na
+          rotina de quem trabalha e estuda.
+        </p>
+      </div>
+
+      <div class="galeria">
+        <img src="assets/imagens/galeria-1.jpg" alt="Estante com livros organizados">
+        <img src="assets/imagens/galeria-2.jpg" alt="Estudante usando notebook">
+        <img src="assets/imagens/galeria-3.jpg" alt="Grupo de estudo em volta de uma mesa">
+        <img src="assets/imagens/galeria-4.jpg" alt="Pilha de livros ao lado de uma xícara de café">
+      </div>
+    </section>
+
+    <!-- 4. SEGUNDO BANNER -->
+    <div class="faixa-imagem">
+      <img src="assets/imagens/banner-2.jpg" alt="Corredor amplo de biblioteca com estantes altas">
+    </div>
+
+    <!-- 5. NOSSOS LIVROS -->
+    <section class="livros" id="livros">
+      <h2>Nossos livros</h2>
+
+      <div class="livros-grade">
+
+        <article class="card">
+          <h3>Fundamentos de Programação</h3>
+          <img src="assets/imagens/livro-1.jpg" alt="Livro de programação aberto ao lado de um computador">
+          <p><span class="categoria">Tecnologia</span> Lógica, algoritmos e primeiros passos para quem quer programar.</p>
+          <a class="botao" href="#livros" aria-label="Saiba mais sobre Fundamentos de Programação">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Gestão de Pessoas</h3>
+          <img src="assets/imagens/livro-2.jpg" alt="Equipe reunida em uma sala de reunião">
+          <p><span class="categoria">Administração</span> Liderança, comunicação e desenvolvimento de equipes.</p>
+          <a class="botao" href="#livros" aria-label="Saiba mais sobre Gestão de Pessoas">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Anatomia Humana</h3>
+          <img src="assets/imagens/livro-3.jpg" alt="Livro de estudos da área da saúde sobre uma mesa">
+          <p><span class="categoria">Saúde</span> Estrutura e funcionamento do corpo humano, com apoio visual.</p>
+          <a class="botao" href="#livros" aria-label="Saiba mais sobre Anatomia Humana">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Introdução ao Direito</h3>
+          <img src="assets/imagens/livro-4.jpg" alt="Livros jurídicos empilhados ao lado de uma balança">
+          <p><span class="categoria">Direito</span> Conceitos básicos para entender normas, leis e direitos.</p>
+          <a class="botao" href="#livros" aria-label="Saiba mais sobre Introdução ao Direito">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Didática no Ensino Superior</h3>
+          <img src="assets/imagens/livro-5.jpg" alt="Professor explicando conteúdo em uma sala de aula">
+          <p><span class="categoria">Educação</span> Métodos e estratégias para ensinar e aprender melhor.</p>
+          <a class="botao" href="#livros" aria-label="Saiba mais sobre Didática no Ensino Superior">Saiba mais</a>
+        </article>
+
+        <article class="card">
+          <h3>Contos Brasileiros</h3>
+          <img src="assets/imagens/livro-6.jpg" alt="Pessoa lendo um livro em uma poltrona">
+          <p><span class="categoria">Literatura</span> Uma seleção de leituras para ampliar o repertório cultural.</p>
+          <a class="botao" href="#livros" aria-label="Saiba mais sobre Contos Brasileiros">Saiba mais</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 6. AS UNIDADES -->
+    <section class="unidades" id="unidades">
+      <h2>As unidades</h2>
+
+      <article class="unidade">
+        <img src="assets/imagens/unidade-1.jpg" alt="Fachada de um prédio universitário">
+        <div class="unidade-texto">
+          <h3>Unidade 1</h3>
+          <p>
+            Espaço de estudo com acervo físico e acesso ao conteúdo digital,
+            mesas para estudo em grupo e atendimento da equipe da biblioteca.
+          </p>
+        </div>
+      </article>
+
+      <article class="unidade">
+        <img src="assets/imagens/unidade-2.jpg" alt="Sala de estudos com mesas e computadores">
+        <div class="unidade-texto">
+          <h3>Unidade 2</h3>
+          <p>
+            Ambiente tranquilo para leitura individual, com computadores
+            disponíveis para consulta ao acervo e pesquisa acadêmica.
+          </p>
+        </div>
+      </article>
+
+      <article class="unidade">
+        <img src="assets/imagens/unidade-3.jpg" alt="Área de convivência com poltronas e estantes">
+        <div class="unidade-texto">
+          <h3>Unidade 3</h3>
+          <p>
+            Área de convivência e leitura, ideal para pausas entre as aulas
+            e para conhecer os destaques do acervo.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- 7. CONTATOS -->
+    <section class="contatos" id="contatos">
+      <h2>Contatos</h2>
+
+      <div class="contatos-conteudo">
+        <div class="contatos-texto">
+          <p>
+            Dúvidas sobre o acervo, empréstimos ou serviços da biblioteca?
+            Fale com a nossa equipe pelos canais abaixo.
+          </p>
+
+          <address>
+            <p>E-mail: <a href="mailto:biblioteca@exemplo.com.br">biblioteca@exemplo.com.br</a></p>
+            <p>Telefone: (11) 0000-0000</p>
+            <p>Atendimento: segunda a sexta, das 8h às 21h</p>
+          </address>
+        </div>
+
+        <img src="assets/imagens/contatos.jpg" alt="Atendente ajudando um estudante no balcão da biblioteca">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <p>&copy; 2026 Biblioteca Digital UniFECAF — Projeto acadêmico da disciplina Design Web.</p>
+    <p>Imagens: Unsplash / Pexels.</p>
+  </footer>
+
+</body>
+</html>
